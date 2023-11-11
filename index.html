@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="this is a rating page">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Rating</title>
+
+ 
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+
+  <div class="rating show" id="rating-div">
+    <div class="rating__icon">
+      <img src="images/icon-star.svg"  alt="star" class="rating__star">
+    </div>
+    <h1 class="rating__heading">
+      How did we do?
+    </h1>
+    <p class="rating__description">
+      Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!
+    </p>
+    <ul class="rating__list">
+      <li><button class="rating__button">1</button></li>
+      <li><button class="rating__button">2</button></li>
+      <li><button class="rating__button">3</button></li>
+      <li><button class="rating__button">4</button></li>
+      <li><button class="rating__button">5</button></li>
+    </ul>
+    <button type="submit" class="rating__submit" id="submit">SUBMIT</button>
+  </div>
+
+
+   <div class="rating hidden" id="thank">
+    <img src="images/illustration-thank-you.svg" width="14rem" alt="thank you" class="thank-you-illustration">
+    <div class="container">
+    <p class="rating__description select">
+      You selected <span id="selected">0</span> out of 5
+    </p>
+   </div>
+    <h1 class="rating__heading" style="text-align: center;">
+      Thank you!
+    </h1>
+    <p class="rating__description" style="text-align: center; font-size:1.25rem">
+      We appreciate you taking the time to give a rating.
+      if you need more support, don't hesitate to get in touch!
+    </p>
+
+   
+   </div>
+
+ <p style="color: white; font-size:1.3rem; position:absolute;
+ bottom: .5rem;">Coded by <span style="color: hsl(25, 97%, 53%);">Abderrahmane</span></p>
+
+<script src="script.js"></script>
+</body>
+</html>
