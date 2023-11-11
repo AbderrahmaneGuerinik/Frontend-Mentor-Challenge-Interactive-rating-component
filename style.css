@@ -31,8 +31,11 @@ body {
    font-family: 'Overpass', sans-serif;
 }
 
+main {
+  width: min(31rem,100%);
+}
 .rating {
-    width: min(31rem,100%);
+    width: 100%;
     background-color: yellow;
     background-color: var(--Dark-Blue);
     padding: 2rem;
