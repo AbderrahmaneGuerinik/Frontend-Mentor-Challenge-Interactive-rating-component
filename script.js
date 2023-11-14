@@ -14,6 +14,7 @@ const click = () => {
    }
    
 const fetch = (button) => {
+   submit.removeAttribute("disabled");
    number = button.innerText;
    selected.innerText = number;
 }
@@ -23,4 +24,5 @@ buttons.forEach((button) => {
 })
 submit.addEventListener("click",click);
  
+
 
